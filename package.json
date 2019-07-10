@@ -1,0 +1,19 @@
+{
+  "name": "@catcatio/line-flex-builder",
+  "version": "0.0.1",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.2",
+    "typescript": "^3.5.3"
+  },
+  "peerDependencies": {
+    "@line/bot-sdk": "^6.8.0"
+  }
+}

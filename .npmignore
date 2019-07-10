@@ -1,0 +1,8 @@
+*.ts
+*d.ts.map
+!*.d.ts
+*.tgz
+node_modules
+yarn-error.log
+tsconfig.json
+package
